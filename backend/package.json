@@ -1,5 +1,17 @@
 {
+  "name": "backend",
+  "type": "module",
+  "description": "Backend for example MERN - GraphQL stack",
+  "authors": "Zachary Mace",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
   "dependencies": {
-    "express": "^4.18.1"
+    "apollo-server": "^3.10.1",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "mongoose": "^6.5.2"
   }
 }
